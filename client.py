@@ -16,5 +16,5 @@ def get(host, port):
 
     s.close() # We need to close the socket, have to close manually
 
-get("www.google.com", 80)
-# get("localhost", 8080)
+# get("www.google.com", 80)
+get("localhost", 8080)
